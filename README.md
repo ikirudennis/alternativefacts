@@ -7,5 +7,7 @@ For when you need to cite Alternative Facts in your python code.
 ```python
 from alternativefacts import alternativefacts
 
-bool(alternativefacts)
+list_ ['t', True, 0, alternativefacts]
+truths = [l for l in list_ if l]
+# truths = ['t', Truth]
 ```
